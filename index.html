@@ -69,9 +69,10 @@
 		
 
 	</style>
-
-	<div class="square"></div>
-	<h2 class="nav_bar1">R.burski's website</h2>
+	<div>
+		<div class="square"></div>
+		<h2 class="nav_bar1">R.burski's website</h2>
+	</div>
 </head>
 
 
@@ -108,19 +109,16 @@
 		</button>
 		<br>
 		<br>
-
-		
-
-
 		<button class="button" onclick="location.href='form.html'">A website With a small form</button>
 		<br>
 		<br>
 		<br>
 		  <input type="text" id="msg" placeholder = "Please enter your name"><br>
 		<br>
-		  
   <button onclick="displayMessage()" name = "done_button"  class = "buttons Done" >Done</button>
-  
+
+
+	
   <script>
 function displayMessage(){
     let themsg = document.getElementById("msg").value;
@@ -133,16 +131,11 @@ function displayMessage(){
 }
 </script>
 
+		<h2 id = "name"></h2>
+	<button class="button" onclick="location.href='review.html'">A website full of reviews</button>	
+    <footer>made by r.burski</footer>
 
 
 	
-		<h2 id = "name"></h2>
-
-	<button class="button" onclick="location.href='review.html'">A website full of reviews</button>
-		
-	</ul>
-    <footer>made by r.burski</footer>
-    
 </body>
-
 </html>
