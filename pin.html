@@ -9,8 +9,41 @@
 	<style>
 		body {
 		background-color:#7bb2ed;
+		text-align:center;
+		font-size:50px;
 
 		}
+		.code{
+		    position:absolute;
+		    top:200px;
+		    left:50%;
+		    
+		}
+		.pin_i{
+		width:400px;    
+	    position:relative;
+		height:100px;
+		left:-200px;
+		font-size:35px;
+		}
+		.pin_b{
+		    width:400px;    
+	    position:relative;
+		height:100px;
+		left:-200px;
+		font-size:60px;
+		background-color:#7bb2ed;
+		border:none;
+		transition:1s;
+		    
+		    
+		}
+		.pin_b:hover{
+		    background-color:#8c8c8c;
+		    opacity:0.5;
+		}
+
+
 
 
   </style>
@@ -23,15 +56,18 @@
 <body>
 
 
+
 <h1>Use your code</h1>
 
 
 
-
-  <input type="number" id="msg" placeholder = "Please enter your code" class = "pin_i"><br>
-		<br>
-  <button onclick="displayMessage()">Use</button>
+<div class ="code">
+    <input type="number" id="msg" placeholder = "Please enter your code" class = "pin_i"><br>
+  <button onclick="displayMessage()" class="pin_b">Use</button>
 	<br>
+    
+</div>
+  
 <script>
 function displayMessage(){
     let themsg = document.getElementById("msg").value;
@@ -58,7 +94,13 @@ function typeWriter() {
   }
 }
 </script>
+<br>
+<br>
+<br>
+<br>
 <p id="demo"></p>
+
+
 
 
 
