@@ -11,6 +11,7 @@
 		background-color:#7bb2ed;
 		text-align:center;
 		font-size:50px;
+		overflow: hidden;
 
 		}
 		.code{
@@ -41,6 +42,14 @@
 		.pin_b:hover{
 		    background-color:#8c8c8c;
 		    opacity:0.5;
+		}
+		.hide{
+		position:absolute;
+		top:1000%;
+		}
+		.show1{
+		    position:absolute;
+		    top:90%;
 		}
 
 
@@ -73,7 +82,7 @@ function displayMessage(){
     let themsg = document.getElementById("msg").value;
     if (themsg == "7562"){
         typeWriter()
-        
+        changeClass()
     }
     else{
         
@@ -93,12 +102,19 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+   function changeClass() {
+            document.getElementById('myButton')
+                .className = "show1";
+            let button_class = document.getElementById('myButton')
+                .className;
+        }
 </script>
 <br>
 <br>
 <br>
 <br>
 <p id="demo"></p>
+<button id="myButton" class="hide"></button>
 
 
 
@@ -111,12 +127,3 @@ function typeWriter() {
 </body>
 
   
-
-
-
-
-
-
-
-
-
