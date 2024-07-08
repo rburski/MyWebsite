@@ -36,21 +36,16 @@
    font-size: 15px;
    padding: 10px 10px;
 }
-		.square {
+				.square {
   height: 100px;
-  width: 100%;
+  position:relative;
+  width: 1100%;
   background-color: #42c949;
- 
+  top:-19px;
+  left:-10px;
+  margin:10px
 				}
-		.nav_bar1  {
-		position:absolute;
-  		top:1.2%;
-  		left:3%;
-  		font-size:24px;
-
-
-
-		}
+	
 		.flip-card1 {
   background-color: transparent;
   width: 130px;
