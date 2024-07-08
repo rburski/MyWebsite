@@ -136,3 +136,9 @@
   transform: rotatex(180deg);
   transform: rotatey(180deg);
 }
+  .nav_bar1 {
+	        position:relative;
+	        top:-1px;
+	        left:30px;
+	        font-size:26px;
+	    }
