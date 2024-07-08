@@ -36,14 +36,15 @@
    font-size: 15px;
    padding: 10px 10px;
 }
-				.square {
+        .square {
   height: 100px;
   position:relative;
   width: 1100%;
   background-color: #42c949;
   top:-19px;
-  left:-20px;
-  margin:10px
+  left:-10px;
+  margin:0px;
+  padding:10px,10px;
 				}
 	
 		.flip-card1 {
