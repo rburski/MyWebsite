@@ -31,13 +31,28 @@
 		.middle:hover{
 		opacity:1;
 		}
+		.open {
+		position:absolute;
+		top:0px;
+		left:90%;
+		width:10%;
+		}
+		.show-middle{
+		background-color:white;
+		width:60%;
+		position:absolute;
+		left:20%;
+		font-family:Bebas Neue;
+		opacity:1;
+		transition:1s;
 
 	</style>
 	
 	
 </head>
 <body>
-	<div class="middle">
+	<div class="show-middle" id="middle">
+	    <image id ="eye" class="open"src="eye.png" onclick="changeClass()"></image>
 		<h1>-Welcome to MMStudios!-</h1>
 		<h3>This is where you can play awesome Scratch projects! :)</p>
 		<br>
