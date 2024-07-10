@@ -142,3 +142,17 @@
 	        left:30px;
 	        font-size:26px;
 	    }
+.mmstudio {
+	width:70px;
+	height:100px;
+	position:absolute;
+	left:800px;
+	top:-50px;
+	background-color:#006eff;
+    
+
+}
+.mmstudio:hover {
+	top:0px;
+
+}
